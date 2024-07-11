@@ -4,17 +4,16 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   throw false
   }
   let pesan = args.join` `
-  let oi = `*🛍️https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY* ${pesan}`
-  let teks = `*⬇️Venta de 🤖 ,regedits para 🖥️📱 ,sensibilidades📱,cuentas ff y mass⬇️*
-   ${oi}\n\n🛍️ *@Ale.izn_20:*\n`
+  let oi = `*𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${pesan}`
+  let teks = `*⺀Invocando a las plantas 🪴⺀*\n\n🪐 ${oi}\n\n🪐 *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`
   for (let mem of participants) {
-  teks += `⭐ @${mem.id.split('@')[0]}\n`}
-  teks += `--- 𝘽𝙤𝙩𝙘𝙞𝙩𝙤 𝘾𝙖𝙜𝙖 𝙃𝙞𝙚𝙡𝙤`
+  teks += `🐶 @${mem.id.split('@')[0]}\n`}
+  teks += `└𝐁𝐨𝐭 𝐊𝐚𝐭𝐞`
   conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
   }
   handler.help = ['tagall <mesaje>','invocar <mesaje>']
   handler.tags = ['group']
-  handler.command = /^(tagall|invocar|invocacion|todos|invocación|aviso|despierten)$/i
+  handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i
   handler.admin = true
   handler.group = true
   export default handler
