@@ -27,7 +27,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤    𝗛ola, ${taguser}
  ┃➤
  ┃➤ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 : 𝐁𝐨𝐭 𝐊𝐚𝐭𝐞 ❄
- ┃➤ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : https://www.instagram.com/ale.izn_20/
  ┃➤ Nᴜᴍᴇʀᴏ wa.me/+51920726588
  ┃➤ Fᴇᴄʜᴀ : ${date}
  ╰━━━━━━━━━━━━━
